@@ -12,6 +12,7 @@ tag @a remove tomeOfEssentials
 tag @a[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":"Hold in off-hand to teleport to spawn."}']}}}]}] add tomeOfEssentials
 # Must be "true" because the item uses "true" instead of a boolean value.
 tag @a[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":" tome_of_essentials","color":"dark_gray","obfuscated":"true"}']}}}]}] add tomeOfEssentials
+tag @a[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":" tome_of_essentials","color":"dark_gray","obfuscated":true}']}}}]}] add tomeOfEssentials
 tag @a[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"obfuscated":true,"color":"dark_gray","text":" tome_of_essentials"}']}}}]}] add tomeOfEssentials
 tag @a remove scrollOfSanctuary
 tag @a[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":"Creates a safe space."}']}}}]}] add scrollOfSanctuary
