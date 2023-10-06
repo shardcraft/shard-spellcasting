@@ -1,0 +1,2 @@
+data modify entity @s Offers.Recipes append value {maxUses: 1, rewardExp: 0b, buy: {id: emerald, Count: 1b}, sell: {id: enchanted_book, Count: 1, tag: {CustomModelData: 6120033, display: {Name: '{"text":"Tome of Essentials","italic":false,"color":"yellow"}', Lore: ['{"text":""}', '{"text": "When in off hand:", "color":"gray", "italic": false}', '{"text":" Teleport to spawn.","color":"dark_green","italic":false}', '{"text":" tome_of_essentials","color":"dark_gray","obfuscated":true}']}}}}
+tag @s add trade_tomeOfEssentials
