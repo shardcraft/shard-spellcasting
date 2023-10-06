@@ -8,7 +8,7 @@ execute at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.05 256
 execute at @s run playsound minecraft:entity.enderman.teleport ambient @a ~ ~ ~
 
 # Teleport.
-execute in minecraft:overworld run tp @s -4960.0 85 -100000.0 180 0
+execute in minecraft:overworld run execute as @s run tp @e[distance=..3,type=!armor_stand] -4960.0 85 -100000.0 180 0
 
 # Spawn particles and play sound after teleport.
 execute at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.05 256
