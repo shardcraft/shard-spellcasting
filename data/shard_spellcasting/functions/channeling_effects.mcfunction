@@ -10,6 +10,9 @@ execute at @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=10
 execute as @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..,positionY=63..},nbt={Dimension: "shardcraft:bazmazan"}] run function shard_spellcasting:effects/tome_of_essentials
 execute at @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..,positionY=..62},nbt={Dimension: "shardcraft:bazmazan"}] run function shard_spellcasting:particles/casting_failed
 
+# Process Tome in Aynkar
+execute as @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..},nbt={Dimension: "shardcraft:aynkar"}] run function shard_spellcasting:effects/tome_of_essentials
+
 # Process Tome in the other dimensions
 execute at @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..},nbt={Dimension: "minecraft:the_nether"}] run function shard_spellcasting:particles/casting_failed
 execute at @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..},nbt={Dimension: "minecraft:the_end"}] run function shard_spellcasting:particles/casting_failed
