@@ -1,0 +1,1 @@
+give @s minecraft:flower_banner_pattern[custom_name='[{"text":"Scroll of Channeling","italic": false, "color":"yellow"}]',lore=['{"text":""}','{"text":"When in off hand:","color":"gray","italic":false}', '{"text":" Does nothing.","color":"dark_green","italic":false}', '{"text":" scroll_of_channeling","color":"dark_gray","obfuscated":true}'], enchantment_glint_override=true] 1

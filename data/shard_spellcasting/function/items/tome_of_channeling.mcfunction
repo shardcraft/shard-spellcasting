@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book[custom_name='[{"text":"Tome of Channeling","italic": false, "color":"yellow"}]',lore=['{"text":""}','{"text":"When in off hand:","color":"gray","italic":false}', '{"text":" Does nothing.","color":"dark_green","italic":false}', '{"text":" tome_of_channeling","color":"dark_gray","obfuscated":true}']] 1
