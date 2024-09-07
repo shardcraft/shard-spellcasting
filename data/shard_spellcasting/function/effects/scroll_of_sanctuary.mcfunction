@@ -1,3 +1,2 @@
 execute at @s run summon area_effect_cloud ~ ~0.25 ~ {Particle:{type:end_rod},Radius:7,RadiusPerTick:0,Duration:72000,ReapplicationDelay:50,potion_contents:{custom_effects:[{id:instant_health,duration:200,amplifier:0},{id:saturation,duration:200,amplifier:1}]}}
-execute if entity @s[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":"Creates a safe space."}']}}}]}] run clear @s minecraft:paper[lore=['{"text":"Creates a safe space."}']] 1
-execute if entity @s[nbt={Inventory: [{Slot: -106b, tag: {display: {Lore: ['{"text":" scroll_of_sanctuary","color":"dark_gray","obfuscated":true}']}}}]}] run item replace entity @s weapon.offhand with minecraft:air 1
+item replace entity @s weapon.offhand with minecraft:air 1
