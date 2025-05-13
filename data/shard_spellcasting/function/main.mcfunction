@@ -1,6 +1,3 @@
-# Modify wandering traders to sell the Tome of Essentials
-execute if score global clocks matches 0 run execute as @e[type=minecraft:wandering_trader,limit=1,tag=!trade_tomeOfEssentials] run function shard_spellcasting:wandering_trader/tome_of_essentials
-
 # Udate Tags
 execute if score global clocks matches 0 run function shard_spellcasting:update_tags
 
