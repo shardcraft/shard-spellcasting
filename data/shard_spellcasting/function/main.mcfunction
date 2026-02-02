@@ -12,6 +12,3 @@ execute if score global clocks matches 0 run scoreboard players set @a[tag=!tome
 # Update Channeling bossbars
 function shard_spellcasting:update_bossbar
 execute if score global clocks matches 0 run execute at @a[tag=channeling,tag=!channelingComplete] run function shard_spellcasting:particles/channeling
-
-# Debug
-execute if score global clocks matches 0 run tell @a[team=debug] shard_spellcasting

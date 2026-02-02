@@ -1,17 +1,16 @@
 # Update Tome/Scroll Tags
 tag @a remove scrollOfChanneling
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"scroll_of_channeling"}}}]}] add scrollOfChanneling
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_channeling"}}}}}] add scrollOfChanneling
 tag @a remove scrollOfSanctuary
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"scroll_of_sanctuary"}}}]}] add scrollOfSanctuary
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_sanctuary"}}}}}] add scrollOfSanctuary
 tag @a remove scrollOfRainfall
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"scroll_of_rainfall"}}}]}] add scrollOfRainfall
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_rainfall"}}}}}] add scrollOfRainfall
 tag @a remove tomeOfChanneling
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"tome_of_channeling"}}}]}] add tomeOfChanneling
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"tome_of_channeling"}}}}}] add tomeOfChanneling
 tag @a remove tomeOfEssentials
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"tome_of_essentials"}}}]}] add tomeOfEssentials
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_name": '{"color":"yellow","italic":false,"text":"Tome of Essentials"}'}}]}] add tomeOfEssentials
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"tome_of_essentials"}}}}}] add tomeOfEssentials
 tag @a remove tomeOfKnowledge
-tag @a[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{shard_id:"tome_of_knowledge"}}}]}] add tomeOfKnowledge
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"tome_of_knowledge"}}}}}] add tomeOfKnowledge
 
 # Update Misc Tags
 tag @a add unarmed
