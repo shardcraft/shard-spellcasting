@@ -20,5 +20,3 @@ execute at @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=10
 execute as @a[tag=scrollOfChanneling,tag=!channelingComplete,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_channeling
 execute as @a[tag=scrollOfRainfall,tag=!channelingComplete,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_rainfall
 execute as @a[tag=scrollOfSanctuary,tag=!channelingComplete,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_sanctuary
-
-tell @a[tag=tomeOfEssentials,tag=!channelingComplete,scores={channeling=100..}] "Ping!"
