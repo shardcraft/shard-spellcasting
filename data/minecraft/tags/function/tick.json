@@ -1,5 +1,6 @@
 {
   "values": [
-    "shard_spellcasting:main"
+    "shard_spellcasting:main",
+    "shard_spellcasting:update_bossbar"
   ]
 }
