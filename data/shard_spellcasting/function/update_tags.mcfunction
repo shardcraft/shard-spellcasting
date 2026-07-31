@@ -16,9 +16,13 @@ tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id
 tag @a add unarmed
 tag @a[nbt={SelectedItem: {}}] remove unarmed
 
+# Update Channeling Tag
 tag @a remove channeling
 tag @a[tag=tomeOfChanneling] add channeling
 tag @a[tag=scrollOfChanneling] add channeling
 tag @a[tag=scrollOfRainfall] add channeling
 tag @a[tag=scrollOfSanctuary] add channeling
 tag @a[tag=tomeOfEssentials] add channeling
+
+# Reset scoreboard if player is not channeling
+scoreboard players set @a[tag=!channeling] channeling 0
