@@ -11,7 +11,7 @@
     },
     "title": "Tome of Knowledge",
     "frame": "task",
-    "description": "Cast a spell using the Tome of Knowledge",
+    "description": "Punch something while holding the Tome of Knowledge in your off hand",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
