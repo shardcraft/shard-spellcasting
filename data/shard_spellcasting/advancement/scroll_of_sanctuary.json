@@ -2,7 +2,12 @@
   "parent": "shard_spellcasting:spellcasting",
   "display": {
     "icon": {
-      "id": "minecraft:flower_banner_pattern"
+      "id": "minecraft:flower_banner_pattern",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [6120031]
+        }
+      }
     },
     "title": "Scroll of Sanctuary",
     "frame": "task",
