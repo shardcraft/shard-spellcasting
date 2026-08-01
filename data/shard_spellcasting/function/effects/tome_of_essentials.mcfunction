@@ -1,19 +1,25 @@
-# Give slowfalling to make sure player loads chunks and doesn't fall through the floor.
-effect give @s minecraft:slow_falling 5 0 true
-effect give @s minecraft:blindness 2 0 true
-effect give @s minecraft:slowness 2 3 true
+# Failed Teleport
+tag @s[nbt={Dimension: "minecraft:the_nether"}] add casting_failed
+tag @s[nbt={Dimension: "minecraft:the_end"}] add casting_failed
+tag @s[nbt={Dimension: "minecraft:overworld"},scores={shard=2..,positionY=..42}] add casting_failed
+execute at @s[tag=casting_failed] run function shard_spellcasting:side_effects/casting_failed
 
-# Spawn particles and play sound before teleport.
-execute at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.05 256
-execute at @s run playsound minecraft:entity.enderman.teleport ambient @a ~ ~ ~
+# Teleport Side Effects I
+execute at @s[tag=!casting_failed] run function shard_spellcasting:side_effects/teleport
 
-# Teleport.
-execute at @s run execute as @e[distance=..2,type=!minecraft:armor_stand,type=!item_frame,type=!glow_item_frame] run execute in minecraft:overworld run tp @s -4960.0 85 -100000.0 180 0
+# Teleport to Yot
+execute at @s[tag=!casting_failed,scores={shard=1}] run execute as @e[distance=..2,type=!minecraft:armor_stand,type=!item_frame,type=!glow_item_frame] run execute in minecraft:overworld run tp @s -4961.5 64 2169.5 0 0
 
-# Spawn particles and play sound after teleport.
-execute at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.05 256
-execute at @s run playsound minecraft:entity.enderman.teleport ambient @a ~ ~ ~
+# Teleport to Spawn.
+execute at @s[tag=!casting_failed,nbt={Dimension: "minecraft:overworld"},scores={shard=2..}] run execute as @e[distance=..2,type=!minecraft:armor_stand,type=!item_frame,type=!glow_item_frame] run execute in minecraft:overworld run tp @s -4960.0 85 -100000.0 180 0
+execute as @a[tag=!casting_failed,nbt={Dimension: "shardcraft:aynkar"}] run execute as @e[distance=..2,type=!minecraft:armor_stand,type=!item_frame,type=!glow_item_frame] run execute in minecraft:overworld run tp @s -4960.0 85 -100000.0 180 0
+
+# Teleport Side Effects II
+execute at @s[tag=!casting_failed] run function shard_spellcasting:side_effects/teleport
 
 # Take tome away and give new tome back.
 item replace entity @s weapon.offhand with minecraft:air 1
 function shard_spellcasting:items/tome_of_essentials
+
+# Remove casting_failed tag
+tag @s remove casting_failed
