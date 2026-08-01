@@ -17,8 +17,25 @@
     "hidden": false
   },
   "criteria": {
-    "nothing": {
-      "trigger": "minecraft:impossible"
+    "unarmed_hit_with_tome": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:air"
+            },
+            "offhand": {
+              "items": "minecraft:enchanted_book",
+              "components": {
+                "minecraft:custom_data": {
+                  "shard_id": "tome_of_knowledge"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
