@@ -2,7 +2,12 @@
   "parent": "shard_spellcasting:spellcasting",
   "display": {
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [6120027]
+        }
+      }
     },
     "title": "Tome of Knowledge",
     "frame": "task",
