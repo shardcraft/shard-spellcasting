@@ -1,0 +1,19 @@
+{
+  "parent": "shard_spellcasting:spellcasting",
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern"
+    },
+    "title": "Scroll of Sanctuary",
+    "frame": "task",
+    "description": "Cast a spell using the Scroll of Sanctuary",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "shard_core:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [6120033]
+        }
+      }
+    },
+    "title": "Spellcasting",
+    "frame": "task",
+    "description": "Hold a tome or scroll to cast a spell",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

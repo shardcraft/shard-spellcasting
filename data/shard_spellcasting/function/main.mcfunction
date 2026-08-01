@@ -5,6 +5,6 @@ execute as @a run function shard_spellcasting:migrate/tome_of_essentials
 function shard_spellcasting:update_tags
 
 # Execute channeling effects
-function shard_spellcasting:channeling_effects
+function shard_spellcasting:casting_effects
 
 schedule function shard_spellcasting:main 1s replace

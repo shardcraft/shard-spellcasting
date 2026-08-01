@@ -8,6 +8,9 @@ execute as @a[tag=scrollOfChanneling,scores={channeling=100..}] run function sha
 execute as @a[tag=scrollOfRainfall,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_rainfall
 execute as @a[tag=scrollOfSanctuary,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_sanctuary
 
+# Advancement
+advancement grant @a[scores={channeling=100..}] only shard_spellcasting:spellcasting
+
 # Reset tags and scores.
 tag @a[scores={channeling=100..}] remove channeling
 scoreboard players set @a[scores={channeling=100..}] channeling 0

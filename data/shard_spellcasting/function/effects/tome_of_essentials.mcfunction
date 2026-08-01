@@ -21,5 +21,7 @@ execute at @s[tag=!casting_failed] run function shard_spellcasting:side_effects/
 item replace entity @s weapon.offhand with minecraft:air 1
 function shard_spellcasting:items/tome_of_essentials
 
+advancement grant @s only shard_spellcasting:tome_of_essentials
+
 # Remove casting_failed tag
 tag @s remove casting_failed
