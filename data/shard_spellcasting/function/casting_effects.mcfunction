@@ -8,6 +8,9 @@ execute as @a[tag=scrollOfChanneling,scores={channeling=100..}] run function sha
 execute as @a[tag=scrollOfClarity,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_clarity
 execute as @a[tag=scrollOfRainfall,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_rainfall
 execute as @a[tag=scrollOfSanctuary,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_sanctuary
+execute as @a[tag=scrollOfCloudbreaking,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_cloudbreaking
+execute as @a[tag=scrollOfStormbinding,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_stormbinding
+execute as @a[tag=scrollOfRaincalling,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_raincalling
 
 # Advancement
 advancement grant @a[scores={channeling=100..}] only shard_spellcasting:spellcasting
