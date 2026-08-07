@@ -18,7 +18,7 @@ execute as @a[tag=!casting_failed,nbt={Dimension: "shardcraft:aynkar"}] run exec
 execute at @s[tag=!casting_failed] run function shard_spellcasting:side_effects/teleport
 
 # Take tome away and give new tome back.
-item replace entity @s weapon.offhand with minecraft:air 1
+item modify entity @s weapon.offhand shard_spellcasting:decrement
 function shard_spellcasting:items/tome_of_essentials
 
 advancement grant @s only shard_spellcasting:tomes
