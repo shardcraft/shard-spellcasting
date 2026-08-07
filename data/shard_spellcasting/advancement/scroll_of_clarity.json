@@ -1,0 +1,24 @@
+{
+  "parent": "shard_spellcasting:spellcasting",
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [6120029]
+        }
+      }
+    },
+    "title": "Scroll of Clarity",
+    "frame": "task",
+    "description": "Cast a spell using the Scroll of Clarity",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

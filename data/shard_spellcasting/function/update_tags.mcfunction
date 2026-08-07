@@ -1,6 +1,8 @@
 # Update Tome/Scroll Tags
 tag @a remove scrollOfChanneling
 tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_channeling"}}}}}] add scrollOfChanneling
+tag @a remove scrollOfClarity
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_clarity"}}}}}] add scrollOfClarity
 tag @a remove scrollOfSanctuary
 tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_sanctuary"}}}}}] add scrollOfSanctuary
 tag @a remove scrollOfRainfall
@@ -20,6 +22,7 @@ tag @a[nbt={SelectedItem: {}}] remove unarmed
 tag @a remove channeling
 tag @a[tag=tomeOfChanneling] add channeling
 tag @a[tag=scrollOfChanneling] add channeling
+tag @a[tag=scrollOfClarity] add channeling
 tag @a[tag=scrollOfRainfall] add channeling
 tag @a[tag=scrollOfSanctuary] add channeling
 tag @a[tag=tomeOfEssentials] add channeling

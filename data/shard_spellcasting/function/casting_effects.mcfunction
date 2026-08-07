@@ -5,6 +5,7 @@ execute as @a[tag=tomeOfEssentials,scores={channeling=100..}] run function shard
 
 # Scroll Effects
 execute as @a[tag=scrollOfChanneling,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_channeling
+execute as @a[tag=scrollOfClarity,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_clarity
 execute as @a[tag=scrollOfRainfall,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_rainfall
 execute as @a[tag=scrollOfSanctuary,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_sanctuary
 
