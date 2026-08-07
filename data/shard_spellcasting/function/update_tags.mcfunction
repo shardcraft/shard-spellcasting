@@ -13,6 +13,8 @@ tag @a remove scrollOfStormbinding
 tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_stormbinding"}}}}}] add scrollOfStormbinding
 tag @a remove scrollOfRaincalling
 tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_raincalling"}}}}}] add scrollOfRaincalling
+tag @a remove scrollOfRecall
+tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"scroll_of_recall"}}}}}] add scrollOfRecall
 tag @a remove tomeOfChanneling
 tag @a[nbt={equipment: {offhand: {components: {"minecraft:custom_data":{shard_id:"tome_of_channeling"}}}}}] add tomeOfChanneling
 tag @a remove tomeOfEssentials
@@ -34,6 +36,7 @@ tag @a[tag=scrollOfSanctuary] add channeling
 tag @a[tag=scrollOfCloudbreaking] add channeling
 tag @a[tag=scrollOfStormbinding] add channeling
 tag @a[tag=scrollOfRaincalling] add channeling
+tag @a[tag=scrollOfRecall] add channeling
 tag @a[tag=tomeOfEssentials] add channeling
 
 # Reset scoreboard if player is not channeling
