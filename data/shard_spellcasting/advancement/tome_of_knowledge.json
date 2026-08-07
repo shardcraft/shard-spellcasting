@@ -1,5 +1,5 @@
 {
-  "parent": "shard_spellcasting:spellcasting",
+  "parent": "shard_spellcasting:tome_of_essentials",
   "display": {
     "icon": {
       "id": "minecraft:enchanted_book",
@@ -37,5 +37,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "shard_spellcasting:advancements/grant_tomes"
   }
 }

@@ -3,4 +3,5 @@ execute at @s run summon area_effect_cloud ~ ~8 ~ {custom_particle:{type:"rain"}
 execute at @s run function shard_spellcasting:side_effects/casting_complete
 item replace entity @s weapon.offhand with minecraft:air 1
 
+advancement grant @s only shard_spellcasting:scrolls
 advancement grant @s only shard_spellcasting:scroll_of_rainfall

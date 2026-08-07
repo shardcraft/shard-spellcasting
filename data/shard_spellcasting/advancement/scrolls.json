@@ -2,16 +2,11 @@
   "parent": "shard_spellcasting:spellcasting",
   "display": {
     "icon": {
-      "id": "minecraft:flower_banner_pattern",
-      "components": {
-        "minecraft:custom_model_data": {
-          "floats": [6120028]
-        }
-      }
+      "id": "minecraft:flower_banner_pattern"
     },
-    "title": "Scroll of Channeling",
+    "title": "Scrolls",
     "frame": "task",
-    "description": "Cast a spell using the Scroll of Channeling",
+    "description": "Hold a scroll in your off hand to cast a spell",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

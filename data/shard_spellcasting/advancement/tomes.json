@@ -2,16 +2,11 @@
   "parent": "shard_spellcasting:spellcasting",
   "display": {
     "icon": {
-      "id": "minecraft:flower_banner_pattern",
-      "components": {
-        "minecraft:custom_model_data": {
-          "floats": [6120031]
-        }
-      }
+      "id": "minecraft:enchanted_book"
     },
-    "title": "Scroll of Sanctuary",
+    "title": "Tomes",
     "frame": "task",
-    "description": "Cast a spell using the Scroll of Sanctuary",
+    "description": "Hold a tome in your off hand to cast a spell",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -1,5 +1,5 @@
 {
-  "parent": "shard_spellcasting:spellcasting",
+  "parent": "shard_spellcasting:scroll_of_clarity",
   "display": {
     "icon": {
       "id": "minecraft:flower_banner_pattern",

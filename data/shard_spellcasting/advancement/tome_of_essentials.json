@@ -1,5 +1,5 @@
 {
-  "parent": "shard_spellcasting:spellcasting",
+  "parent": "shard_spellcasting:tomes",
   "display": {
     "icon": {
       "id": "minecraft:book",
