@@ -1,13 +1,9 @@
 # Tome Effects
 execute as @a[tag=tomeOfKnowledge] run function shard_spellcasting:effects/tome_of_knowledge
-execute as @a[tag=tomeOfChanneling,scores={channeling=100..}] run function shard_spellcasting:effects/tome_of_channeling
 execute as @a[tag=tomeOfEssentials,scores={channeling=100..}] run function shard_spellcasting:effects/tome_of_essentials
 
 # Scroll Effects
 execute as @a[tag=scrollOfChanneling,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_channeling
-execute as @a[tag=scrollOfClarity,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_clarity
-execute as @a[tag=scrollOfRainfall,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_rainfall
-execute as @a[tag=scrollOfSanctuary,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_sanctuary
 execute as @a[tag=scrollOfCloudbreaking,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_cloudbreaking
 execute as @a[tag=scrollOfStormbinding,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_stormbinding
 execute as @a[tag=scrollOfRaincalling,scores={channeling=100..}] run function shard_spellcasting:effects/scroll_of_raincalling
